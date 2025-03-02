@@ -23,9 +23,9 @@
 
 import mongoose from "mongoose";
 
-const mongoURI = "mongodb://localhost:27017/yourDatabaseName"; // Local MongoDB
-// const mongoURI = "your_mongodb_atlas_connection_string"; // Uncomment for MongoDB Atlas
-
+//const mongoURI = "mongodb://localhost:27017/yourDatabaseName"; // Local MongoDB
+// const mongoURI = "your_mongodb_atlas_connection_string"; 
+const mongoURI =' mongodb+srv://tahuja061:BHxDEhCeOPdo2nMy@cluster0.f7yeg.mongodb.net/';
 const connectDB = async () => {
     try {
         await mongoose.connect(mongoURI, {
